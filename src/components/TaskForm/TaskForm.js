@@ -1,7 +1,7 @@
 // Импортируем хук
 import { useDispatch } from 'react-redux';
 // Импортируем генератор экшена
-import { addTask } from 'redux/actions';
+import { addTask } from 'redux/tasksSlice';
 
 import { toast } from 'react-hot-toast';
 
