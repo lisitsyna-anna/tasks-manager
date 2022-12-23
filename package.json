@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lisitsyna-anna.github.io/task-manager-react-toolkit/",
+  "homepage": "https://lisitsyna-anna.github.io/task-manager-with-API/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.3",
     "@reduxjs/toolkit": "^1.9.1",
