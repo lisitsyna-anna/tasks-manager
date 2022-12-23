@@ -1,10 +1,9 @@
 // Импортируем хук
 import { useDispatch } from 'react-redux';
 // Импортируем генератор экшена
-import { addTask } from 'redux/tasksSlice';
+import { addTask } from 'redux/operations';
 
 import { toast } from 'react-hot-toast';
-
 import { Button } from 'components/Button/Button';
 import css from './TaskForm.module.css';
 

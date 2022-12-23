@@ -6,7 +6,7 @@ const filtersInitialState = {
 };
 
 const filtersSlice = createSlice({
-  name: 'filter',
+  name: 'filters',
   initialState: filtersInitialState,
   reducers: {
     setStatusFilter(state, action) {
@@ -15,6 +15,5 @@ const filtersSlice = createSlice({
   },
 });
 
-// Экспортируем генераторы экшенов и редюсер
 export const { setStatusFilter } = filtersSlice.actions;
 export const filtersReducer = filtersSlice.reducer;
