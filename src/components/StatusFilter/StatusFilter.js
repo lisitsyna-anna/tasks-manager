@@ -1,6 +1,6 @@
 // Импортируем хук
 import { useSelector } from 'react-redux';
-import { getStatusFilter } from 'redux/selectors';
+import { selectStatusFilter } from 'redux/selectors';
 
 import { useDispatch } from 'react-redux';
 import { setStatusFilter } from 'redux/filtersSlice';
@@ -13,7 +13,7 @@ import css from './StatusFilter.module.css';
 
 export const StatusFilter = () => {
   // Получаем значение фильтра из состояния Redux
-  const filter = useSelector(getStatusFilter);
+  const filter = useSelector(selectStatusFilter);
 
   const dispatch = useDispatch();
 
