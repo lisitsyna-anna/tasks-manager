@@ -1,91 +1,49 @@
-**Read in other languages: [Русский](README.md), [Polska](README.pl.md),
-[English](README.en.md), [Spanish](README.es.md).**
+# Tasks
 
-# React homework template
+[Tasks Manager](https://lisitsyna-anna.github.io/tasks-manager/) is a simple
+application designed to help users create and track their tasks. It provides an
+intuitive interface for managing tasks, allowing users to stay organized and
+monitor their progress.
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-## Подготовка нового проекта
+- Task Creation: Users can create tasks using the provided form. They can enter
+  a task's description.
+- Task Filtering: The application offers task filtering options based on
+  categories. Users can choose to view all tasks, active tasks, or completed
+  tasks, making it easier to focus on specific tasks.
+- Progress Tracking: The application displays the overall progress of tasks,
+  showing the number of completed tasks and the number of active tasks. This
+  feature allows users to visualize their progress and stay motivated.
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Клонируй этот репозиторий.
-3. Измени имя папки с `react-homework-template` на имя своего проекта.
-4. Создай новый пустой репозиторий на GitHub.
-5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
-   [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Установи базовые зависимости проекта командой `npm install`.
-7. Запусти режим разработки, выполнив команду `npm start`.
-8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+## Technologies Used
 
-## Деплой
+The Tasks Manager application was built using the following technologies:
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+- React
+- JavaScript
+- Axios
+- Redux
+- Redux Toolkit
+- The backend for the application is a mock API provided by
+  [MockAPI](https://mockapi.io/). It allows the application to simulate data
+  retrieval and manipulation.
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+## Setup Instructions
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+To run the Tasks Manager application locally, follow these steps:
 
-![GitHub Pages settings](./assets/repo-settings.png)
+1. Clone the repository:
+   `git clone https://github.com/lisitsyna-anna/tasks-manager`
+2. Navigate to the project directory: `cd tasks-manager`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to access the
+   application.
 
-### Статус деплоя
+## Contact Information
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+If you have any questions or feedback, please feel free to contact me:
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
-
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
-
-![Deployment status](./assets/status.png)
-
-### Живая страница
-
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
-
-### Маршрутизация
-
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеши в начале и конце строки
-обязательны.
-
-```jsx
-<BrowserRouter basename="/your_repo_name/">
-  <App />
-</BrowserRouter>
-```
-
-## Как это работает
-
-![How it works](./assets/how-it-works.png)
-
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+- Email: [anna.lisicina9309@gmail.com](mailto:anna.lisicina9309@gmail.com)
+- GitHub: [lisitsyna-anna](https://github.com/lisitsyna-anna)
